@@ -1,0 +1,99 @@
+/* Styling body */
+body {
+    background-color: #1f2833;
+  }
+  /* Styling Header */
+  .h1 {
+    color: #66fcf1;
+    margin-top: 10px;
+    font-family: "Ranchers", cursive;
+    font-weight: bold;
+    font-size: 7vw;
+  }
+  
+  /* Styling Form */
+  .form-group {
+    margin-bottom: 5px;
+  }
+  .form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #66fcf1;
+    border-radius: 0;
+    opacity: 0.5;
+    text-align: center;
+  }
+  .form-control:focus {
+    background-color: transparent;
+    box-shadow: none !important;
+    border-bottom: 2px solid #66fcf1;
+    opacity: 1;
+  }
+  .btn {
+    background-color: #66fcf1;
+    border-radius: 50px;
+  }
+  .btn:focus {
+    box-shadow: none !important;
+  }
+  .col {
+    max-width: 60% !important;
+    margin: 0 auto !important;
+  }
+  .name-section {
+    padding: 215px 0 !important;
+    text-align: center !important;
+  }
+  
+  /* Quiz Section styling */
+  .h2 {
+    color: #ffffff;
+  }
+  .list-group-item {
+    background-color: transparent;
+    border: none;
+    color: #c5c6c7;
+  }
+  .quiz-section {
+    padding: 105px 0 !important;
+  }
+  .answer {
+    cursor: pointer;
+  }
+  .question {
+    border-left: 1px solid #66fcf1;
+  }
+  .next-btn {
+    border: none !important;
+    margin-top: 5px;
+  }
+  /* Styling Result */
+  .display-name {
+    color: #ffffff;
+  }
+  .result-section {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .award_icons {
+    margin: 3px auto !important;
+    font-size: 300px;
+    color: #66fcf1;
+  }
+  .username {
+    color: #66fcf1;
+  }
+  .again-btn {
+    margin-top: 15px;
+  }
+  
+  /* Styling to change Visibilty */
+  .remove {
+    display: none !important;
+  }
+  /* Styling for active class */
+  .active {
+    background-color: #66fcf1 !important;
+    color: #1f2833 !important;
+  }
+  
